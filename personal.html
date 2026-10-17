@@ -12,16 +12,23 @@
 
 		<!---Links-->
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
+		<style>
+			body{
+				border-width: 10em
+			}
+		</style>
 	</head>
 
 	<body>
 		<header>
 			<h1>Anthony Estrella</h1>
-			<picture>
-						<source srcset="images/icon.webp" type="image/webp">
-						<img src="images/icon.png" alt="Image of placeHolder social icon">	
-			</picture>
+			<page-Icon>
+				<picture>
+							<source srcset="images/icon.webp" type="image/webp">
+							<img src="images/icon.png" alt="Image of placeHolder social icon">	
+				</picture>
+			</page-Icon>
+
 			<nav>
 				<ul>
 					<li> <a href="index.html"> Homepage </a> </li>
@@ -36,16 +43,14 @@
 
 
 		<main>
+
+			<hello-world></hello-world>
 			<header>
                 <h2>
 					Personal Stuff
 				</h2>
 				<div>
-					<picture>
-						<source srcset="placeHolder.webp" type="image/webp">
-						<source srcset="placeHolder.png" type="image/png">
-						<img src="placeHolder.jpg" alt=" Banner Image of personal stuff">
-					</picture>
+					
 				</div>
 
 				<hr>
@@ -74,12 +79,11 @@
 				</h2>
 				<figure>
 					<picture>
-						<source srcset="placeHolder.webp" type="image/webp">
-						<source srcset="placeHolder.png" type="image/png">
-						<img src="placeHolder.jpg" alt="Image of placeHolder dream card1">
+						<source srcset="images/turuieCard.webp" type="image/webp">
+						<img src="images/turuieCard.png" alt="Image of placeHolder dream card1">
 					
 					</picture>
-					<figcaption> Dream Card: </figcaption>
+					<figcaption> Dream Card <br> Card Name: Turuiemon <br> Collection:  Card Game Alpha Da-570</figcaption>
 				</figure>
 				
 				<section>
@@ -89,34 +93,31 @@
 					<div>
 						<figure>
 							<picture>
-								<source srcset="placeHolder.webp" type="image/webp">
-								<source srcset="placeHolder.png" type="image/png">
-								<img src="placeHolder.jpg" alt="Image of placeHolder project 1">
-							
+								<source srcset="images/mephisCard.webp" type="image/webp">
+								<img src="images/mephisCard.png" alt="Image of placeHolder dream card1">
+									
 							</picture>
-							<figcaption> Card Name <br> Collection </figcaption>
+							<figcaption> Card Name: Mephistomon <br> Collection: Digimon Card Game EX2-042 (DCG) </figcaption>
 						</figure>
 
 						<figure>
 							
 							<picture>
-								
-								<source srcset="placeHolder.webp" type="image/webp">
-								<source srcset="placeHolder.png" type="image/png">
-								<img src="placeHolder.jpg" alt="Image of placeHolder project 2">
+									
+								<source srcset="images/gargoCard.webp" type="image/webp">
+								<img src="images/gargoCard.png" alt="Image of placeHolder dream card1">
 
 							</picture>
-							<figcaption> Card Name <br> Collection </figcaption>
+							<figcaption> Card Name: Gargomon <br> Collection: Digimon Card Game ST17-05 (DCG) </figcaption>
 						</figure>
 						
 						<figure>
 							<picture>
-									<source srcset="placeHolder.webp" type="image/webp">
-								<source srcset="placeHolder.png" type="image/png">
-								<img src="placeHolder.jpg" alt="Image of placeHolder project 3">
-							
+								<source srcset="images/chiropCard.webp" type="image/webp">
+								<img src="placeHolder.png" alt="Image of placeHolder dream card1">
+								
 							</picture>
-							<figcaption> Card Name <br> Collection </figcaption>
+							<figcaption> Card Name: Chriopmon <br> Collection: Digimon Card Game ST23-12 (DCG) </figcaption>
 						</figure>
 					</div>
 
@@ -132,32 +133,29 @@
 				<div>
 					<figure>
 						<picture>
-							<source srcset="placeHolder.webp" type="image/webp">
-							<source srcset="placeHolder.png" type="image/png">
-							<img src="placeHolder.jpg" alt="Image of placeHolder scene 1">
+							<source srcset="images/kerpyRises.webp" type="image/webp">
+							<img src="images/kerpyRises.png" alt="Image of Kerpymon rising from a Lake">
 						
 						</picture>
-						<figcaption> Scene Description <br> Where it's from </figcaption>
+						<figcaption> Kerpymon Rises from a Lake <br> Digimon Movie 02 </figcaption>
 					</figure>
 
 					<figure>
 						<picture>
-							<source srcset="placeHolder.webp" type="image/webp">
-							<source srcset="placeHolder.png" type="image/png">
-							<img src="placeHolder.jpg" alt="Image of placeHolder scene 2">
+							<source srcset="images/matrixBurly.webp" type="image/webp">
+							<img src="images/matrixBurly.png" alt="Image of placeHolder scene 1">
 						
 						</picture>
-						<figcaption> Scene Description <br> Where it's from </figcaption>
+						<figcaption> The burly brawl from the matrix <br> Matrix Reloaded </figcaption>
 					</figure>
 					
 					<figure>
 						<picture>
-							<source srcset="placeHolder.webp" type="image/webp">
-							<source srcset="placeHolder.png" type="image/png">
-							<img src="placeHolder.jpg" alt="Image of placeHolder scene 3">
+							<source srcset="images/gohanWins.webp" type="image/webp">
+							<img src="images/gohanWins.png" alt="Image of placeHolder scene 1">
 						
 						</picture>
-						<figcaption> Scene Description <br> Where it's from </figcaption>
+						<figcaption> Gohan Beats Cell <br> Dragon Ball Z </figcaption>
 					</figure>
 				</div>
 			
@@ -185,7 +183,14 @@
 			<small> © 2026 Anthony Estrella. All rights reserved.</small>
 		</footer>
 
-
+		<script>
+		customElements.define('hello-world', class extends HTMLElement{
+			constructor(){
+				super();
+				this.attachShadow({mode:"open"}).innerHTML = "Hello World";
+			}
+		}) 
+		</script>
 	</body>
 
 </html>

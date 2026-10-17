@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!---METAS-->
+		<meta charset="utf-8">
+		<meta name="description" content="Personal Website">
+		<meta name="Author" content="Anthony Estrella">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Anthony's Website</title>
+
+		<!---Links-->
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<style>
+			body{
+				border-width: 10em
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Anthony Estrella</h1>
+			<picture>
+						<source srcset="images/icon.webp" type="image/webp">
+						<img src="images/icon.png" alt="Image of placeHolder social icon">	
+			</picture>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> Homepage </a> </li>
+					<li> <a href="/aboutMe.html"> About Me</a> </li>
+					<li> <a href="/professionalExperience.html"> Portfolio </a> </li>
+					<li> <a href="/personal.html"> Personal </a> </li>
+					<li> <a href="/contactMe.html"> Contact Me </a> </li>
+				</ul>
+			</nav>
+			<hr>
+		</header>
+
+		<main>
+			<header>
+				<h2>
+					Experiments
+				</h2>
+				<hr>
+			</header>
+
+			<section>
+				<h2>
+					Template
+				</h2>
+				<template>
+
+				</template>
+				<p> 
+					Used to show content that is normally hidden. <br>
+					Does not work due to no JS.
+				</p>
+			</section>
+			<hr>
+			<section>
+				<h2>
+					Audio
+				</h2>
+
+
+				<audio controls>
+					<source src="audio/Chateau.mp3" type="audio/mpeg">
+					Does not work due to no JS.
+
+				</audio>
+
+				<p> Play audio files</p>
+
+			</section>
+			<hr>
+			<section>
+				<h2>
+					Canvas
+				</h2>
+				<canvas id="myCanvas">
+
+                </canvas>
+
+				<p> Make a canvas we can draw on</p>
+				<script>
+					const canvas = document.getElementById("myCanvas");
+					const ctx = canvas.getContext("2d");
+
+					ctx.fillStyle = "Green";
+					ctx.fillRect(30, 50, 140, 80);
+					ctx.fillStyle = "orange";
+					ctx.fillRect(85, 50, 40, 80);
+				</script>
+			</section>
+			<hr>
+			<section>
+				<h2>
+					Source Tag
+				</h2>
+				<p> Used to give tags like picture and audio multiple sources as fallback </p>
+
+			</section>
+
+
+
+
+		</main>
+		<footer>
+			<small> © 2026 Anthony Estrella. All rights reserved.</small>
+		</footer>
+	</body>
+
+</html>
